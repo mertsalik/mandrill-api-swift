@@ -26,6 +26,7 @@
 		E87EEBF21F1D055500E0A236 /* MandrillRecipientMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBF11F1D055500E0A236 /* MandrillRecipientMetadata.swift */; };
 		E87EEBF41F1D056900E0A236 /* MandrillAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBF31F1D056900E0A236 /* MandrillAttachment.swift */; };
 		E87EEBF61F1D058700E0A236 /* MandrillImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBF51F1D058700E0A236 /* MandrillImage.swift */; };
+		E87EEBF91F1D2C1C00E0A236 /* MandrillApiErrorMessageExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBF81F1D2C1C00E0A236 /* MandrillApiErrorMessageExtractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E87EEBF11F1D055500E0A236 /* MandrillRecipientMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillRecipientMetadata.swift; path = Sources/MandrillRecipientMetadata.swift; sourceTree = "<group>"; };
 		E87EEBF31F1D056900E0A236 /* MandrillAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillAttachment.swift; path = Sources/MandrillAttachment.swift; sourceTree = "<group>"; };
 		E87EEBF51F1D058700E0A236 /* MandrillImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillImage.swift; path = Sources/MandrillImage.swift; sourceTree = "<group>"; };
+		E87EEBF81F1D2C1C00E0A236 /* MandrillApiErrorMessageExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillApiErrorMessageExtractor.swift; path = Sources/MandrillApiErrorMessageExtractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		E87EEBCF1F1CF9D200E0A236 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E87EEBF71F1D2C0200E0A236 /* Siesta */,
 				E87EEBEA1F1CFC4D00E0A236 /* Helpers */,
 				E87EEBE91F1CFC3D00E0A236 /* Models */,
 			);
@@ -165,6 +168,14 @@
 				E87EEBE71F1CFC0300E0A236 /* ModelHelpers.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		E87EEBF71F1D2C0200E0A236 /* Siesta */ = {
+			isa = PBXGroup;
+			children = (
+				E87EEBF81F1D2C1C00E0A236 /* MandrillApiErrorMessageExtractor.swift */,
+			);
+			name = Siesta;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +298,7 @@
 				E87EEBF21F1D055500E0A236 /* MandrillRecipientMetadata.swift in Sources */,
 				E87EEBE61F1CFBBA00E0A236 /* MandrillModelProtocol.swift in Sources */,
 				E87EEBEC1F1D048100E0A236 /* MandrillSendTemplate.swift in Sources */,
+				E87EEBF91F1D2C1C00E0A236 /* MandrillApiErrorMessageExtractor.swift in Sources */,
 				E87EEBF01F1D04B900E0A236 /* MandrillMessage.swift in Sources */,
 				E87EEBDB1F1CFB3700E0A236 /* MandrillMergeVariable.swift in Sources */,
 				E87EEBD71F1CFAE700E0A236 /* MandrillHeaders.swift in Sources */,
