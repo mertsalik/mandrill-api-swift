@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import SwiftyJSON
+
+protocol MandrillModel {
+    init(json: JSON)
+    func toJSON() -> Dictionary<String, AnyObject>
+}

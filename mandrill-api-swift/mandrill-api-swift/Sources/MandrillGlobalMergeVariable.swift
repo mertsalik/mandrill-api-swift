@@ -1,5 +1,5 @@
 //
-//  MandrillVariables.swift
+//  MandrillGlobalMergeVariable.swift
 //  mandrill-api-swift
 //
 //  Created by Mert Salik on 17/07/17.

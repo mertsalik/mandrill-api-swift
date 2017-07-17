@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import mandrill_api_swift
+@testable import SwiftMandrillApi
 
 class mandrill_api_swiftTests: XCTestCase {
     
