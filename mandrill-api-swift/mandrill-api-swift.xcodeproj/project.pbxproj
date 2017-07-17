@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E87EEBBF1F1CEE9300E0A236 /* mandrill-api-swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87EEBB51F1CEE9300E0A236 /* mandrill-api-swift.framework */; };
+		E87EEBBF1F1CEE9300E0A236 /* SwiftMandrillApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87EEBB51F1CEE9300E0A236 /* SwiftMandrillApi.framework */; };
 		E87EEBC41F1CEE9300E0A236 /* mandrill_api_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBC31F1CEE9300E0A236 /* mandrill_api_swiftTests.swift */; };
 		E87EEBC61F1CEE9300E0A236 /* mandrill-api-swift.h in Headers */ = {isa = PBXBuildFile; fileRef = E87EEBB81F1CEE9300E0A236 /* mandrill-api-swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -23,10 +23,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E87EEBB51F1CEE9300E0A236 /* mandrill-api-swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "mandrill-api-swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87EEBB51F1CEE9300E0A236 /* SwiftMandrillApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMandrillApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87EEBB81F1CEE9300E0A236 /* mandrill-api-swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mandrill-api-swift.h"; sourceTree = "<group>"; };
 		E87EEBB91F1CEE9300E0A236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E87EEBBE1F1CEE9300E0A236 /* mandrill-api-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mandrill-api-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87EEBBE1F1CEE9300E0A236 /* SwiftMandrillApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMandrillApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87EEBC31F1CEE9300E0A236 /* mandrill_api_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mandrill_api_swiftTests.swift; sourceTree = "<group>"; };
 		E87EEBC51F1CEE9300E0A236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E87EEBBF1F1CEE9300E0A236 /* mandrill-api-swift.framework in Frameworks */,
+				E87EEBBF1F1CEE9300E0A236 /* SwiftMandrillApi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,8 +62,8 @@
 		E87EEBB61F1CEE9300E0A236 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E87EEBB51F1CEE9300E0A236 /* mandrill-api-swift.framework */,
-				E87EEBBE1F1CEE9300E0A236 /* mandrill-api-swiftTests.xctest */,
+				E87EEBB51F1CEE9300E0A236 /* SwiftMandrillApi.framework */,
+				E87EEBBE1F1CEE9300E0A236 /* SwiftMandrillApiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +100,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E87EEBB41F1CEE9300E0A236 /* mandrill-api-swift */ = {
+		E87EEBB41F1CEE9300E0A236 /* SwiftMandrillApi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E87EEBC91F1CEE9300E0A236 /* Build configuration list for PBXNativeTarget "mandrill-api-swift" */;
+			buildConfigurationList = E87EEBC91F1CEE9300E0A236 /* Build configuration list for PBXNativeTarget "SwiftMandrillApi" */;
 			buildPhases = (
 				E87EEBB01F1CEE9300E0A236 /* Sources */,
 				E87EEBB11F1CEE9300E0A236 /* Frameworks */,
@@ -113,14 +113,14 @@
 			);
 			dependencies = (
 			);
-			name = "mandrill-api-swift";
+			name = SwiftMandrillApi;
 			productName = "mandrill-api-swift";
-			productReference = E87EEBB51F1CEE9300E0A236 /* mandrill-api-swift.framework */;
+			productReference = E87EEBB51F1CEE9300E0A236 /* SwiftMandrillApi.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E87EEBBD1F1CEE9300E0A236 /* mandrill-api-swiftTests */ = {
+		E87EEBBD1F1CEE9300E0A236 /* SwiftMandrillApiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E87EEBCC1F1CEE9300E0A236 /* Build configuration list for PBXNativeTarget "mandrill-api-swiftTests" */;
+			buildConfigurationList = E87EEBCC1F1CEE9300E0A236 /* Build configuration list for PBXNativeTarget "SwiftMandrillApiTests" */;
 			buildPhases = (
 				E87EEBBA1F1CEE9300E0A236 /* Sources */,
 				E87EEBBB1F1CEE9300E0A236 /* Frameworks */,
@@ -131,9 +131,9 @@
 			dependencies = (
 				E87EEBC11F1CEE9300E0A236 /* PBXTargetDependency */,
 			);
-			name = "mandrill-api-swiftTests";
+			name = SwiftMandrillApiTests;
 			productName = "mandrill-api-swiftTests";
-			productReference = E87EEBBE1F1CEE9300E0A236 /* mandrill-api-swiftTests.xctest */;
+			productReference = E87EEBBE1F1CEE9300E0A236 /* SwiftMandrillApiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,8 +168,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E87EEBB41F1CEE9300E0A236 /* mandrill-api-swift */,
-				E87EEBBD1F1CEE9300E0A236 /* mandrill-api-swiftTests */,
+				E87EEBB41F1CEE9300E0A236 /* SwiftMandrillApi */,
+				E87EEBBD1F1CEE9300E0A236 /* SwiftMandrillApiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,7 +212,7 @@
 /* Begin PBXTargetDependency section */
 		E87EEBC11F1CEE9300E0A236 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E87EEBB41F1CEE9300E0A236 /* mandrill-api-swift */;
+			target = E87EEBB41F1CEE9300E0A236 /* SwiftMandrillApi */;
 			targetProxy = E87EEBC01F1CEE9300E0A236 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -387,7 +387,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E87EEBC91F1CEE9300E0A236 /* Build configuration list for PBXNativeTarget "mandrill-api-swift" */ = {
+		E87EEBC91F1CEE9300E0A236 /* Build configuration list for PBXNativeTarget "SwiftMandrillApi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E87EEBCA1F1CEE9300E0A236 /* Debug */,
@@ -395,7 +395,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		E87EEBCC1F1CEE9300E0A236 /* Build configuration list for PBXNativeTarget "mandrill-api-swiftTests" */ = {
+		E87EEBCC1F1CEE9300E0A236 /* Build configuration list for PBXNativeTarget "SwiftMandrillApiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E87EEBCD1F1CEE9300E0A236 /* Debug */,
