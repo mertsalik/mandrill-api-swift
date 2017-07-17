@@ -10,6 +10,16 @@
 		E87EEBBF1F1CEE9300E0A236 /* SwiftMandrillApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87EEBB51F1CEE9300E0A236 /* SwiftMandrillApi.framework */; };
 		E87EEBC41F1CEE9300E0A236 /* mandrill_api_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBC31F1CEE9300E0A236 /* mandrill_api_swiftTests.swift */; };
 		E87EEBC61F1CEE9300E0A236 /* mandrill-api-swift.h in Headers */ = {isa = PBXBuildFile; fileRef = E87EEBB81F1CEE9300E0A236 /* mandrill-api-swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E87EEBD11F1CF9F800E0A236 /* MandrillErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBD01F1CF9F800E0A236 /* MandrillErrorResponse.swift */; };
+		E87EEBD31F1CFA9500E0A236 /* MandrillTemplateContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBD21F1CFA9500E0A236 /* MandrillTemplateContent.swift */; };
+		E87EEBD51F1CFAAD00E0A236 /* MandrillTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBD41F1CFAAD00E0A236 /* MandrillTo.swift */; };
+		E87EEBD71F1CFAE700E0A236 /* MandrillHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBD61F1CFAE700E0A236 /* MandrillHeaders.swift */; };
+		E87EEBD91F1CFB1400E0A236 /* MandrillGlobalMergeVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBD81F1CFB1400E0A236 /* MandrillGlobalMergeVariable.swift */; };
+		E87EEBDB1F1CFB3700E0A236 /* MandrillMergeVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBDA1F1CFB3700E0A236 /* MandrillMergeVariable.swift */; };
+		E87EEBDD1F1CFB5700E0A236 /* MandrillMergeVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBDC1F1CFB5700E0A236 /* MandrillMergeVariables.swift */; };
+		E87EEBE41F1CFBA100E0A236 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E87EEBE11F1CFBA100E0A236 /* SwiftyJSON.framework */; };
+		E87EEBE61F1CFBBA00E0A236 /* MandrillModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBE51F1CFBBA00E0A236 /* MandrillModelProtocol.swift */; };
+		E87EEBE81F1CFC0300E0A236 /* ModelHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87EEBE71F1CFC0300E0A236 /* ModelHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +39,16 @@
 		E87EEBBE1F1CEE9300E0A236 /* SwiftMandrillApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMandrillApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E87EEBC31F1CEE9300E0A236 /* mandrill_api_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mandrill_api_swiftTests.swift; sourceTree = "<group>"; };
 		E87EEBC51F1CEE9300E0A236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87EEBD01F1CF9F800E0A236 /* MandrillErrorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillErrorResponse.swift; path = Sources/MandrillErrorResponse.swift; sourceTree = "<group>"; };
+		E87EEBD21F1CFA9500E0A236 /* MandrillTemplateContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillTemplateContent.swift; path = Sources/MandrillTemplateContent.swift; sourceTree = "<group>"; };
+		E87EEBD41F1CFAAD00E0A236 /* MandrillTo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillTo.swift; path = Sources/MandrillTo.swift; sourceTree = "<group>"; };
+		E87EEBD61F1CFAE700E0A236 /* MandrillHeaders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillHeaders.swift; path = Sources/MandrillHeaders.swift; sourceTree = "<group>"; };
+		E87EEBD81F1CFB1400E0A236 /* MandrillGlobalMergeVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillGlobalMergeVariable.swift; path = Sources/MandrillGlobalMergeVariable.swift; sourceTree = "<group>"; };
+		E87EEBDA1F1CFB3700E0A236 /* MandrillMergeVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillMergeVariable.swift; path = Sources/MandrillMergeVariable.swift; sourceTree = "<group>"; };
+		E87EEBDC1F1CFB5700E0A236 /* MandrillMergeVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillMergeVariables.swift; path = Sources/MandrillMergeVariables.swift; sourceTree = "<group>"; };
+		E87EEBE11F1CFBA100E0A236 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		E87EEBE51F1CFBBA00E0A236 /* MandrillModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MandrillModelProtocol.swift; path = Sources/MandrillModelProtocol.swift; sourceTree = "<group>"; };
+		E87EEBE71F1CFC0300E0A236 /* ModelHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelHelpers.swift; path = Sources/ModelHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87EEBE41F1CFBA100E0A236 /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +77,7 @@
 				E87EEBB71F1CEE9300E0A236 /* mandrill-api-swift */,
 				E87EEBC21F1CEE9300E0A236 /* mandrill-api-swiftTests */,
 				E87EEBB61F1CEE9300E0A236 /* Products */,
+				E87EEBDE1F1CFBA000E0A236 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +93,7 @@
 		E87EEBB71F1CEE9300E0A236 /* mandrill-api-swift */ = {
 			isa = PBXGroup;
 			children = (
+				E87EEBCF1F1CF9D200E0A236 /* Sources */,
 				E87EEBB81F1CEE9300E0A236 /* mandrill-api-swift.h */,
 				E87EEBB91F1CEE9300E0A236 /* Info.plist */,
 			);
@@ -84,6 +107,46 @@
 				E87EEBC51F1CEE9300E0A236 /* Info.plist */,
 			);
 			path = "mandrill-api-swiftTests";
+			sourceTree = "<group>";
+		};
+		E87EEBCF1F1CF9D200E0A236 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E87EEBEA1F1CFC4D00E0A236 /* Helpers */,
+				E87EEBE91F1CFC3D00E0A236 /* Models */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		E87EEBDE1F1CFBA000E0A236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E87EEBE11F1CFBA100E0A236 /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E87EEBE91F1CFC3D00E0A236 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E87EEBD01F1CF9F800E0A236 /* MandrillErrorResponse.swift */,
+				E87EEBD21F1CFA9500E0A236 /* MandrillTemplateContent.swift */,
+				E87EEBD41F1CFAAD00E0A236 /* MandrillTo.swift */,
+				E87EEBD61F1CFAE700E0A236 /* MandrillHeaders.swift */,
+				E87EEBD81F1CFB1400E0A236 /* MandrillGlobalMergeVariable.swift */,
+				E87EEBDA1F1CFB3700E0A236 /* MandrillMergeVariable.swift */,
+				E87EEBDC1F1CFB5700E0A236 /* MandrillMergeVariables.swift */,
+				E87EEBE51F1CFBBA00E0A236 /* MandrillModelProtocol.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		E87EEBEA1F1CFC4D00E0A236 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E87EEBE71F1CFC0300E0A236 /* ModelHelpers.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +211,7 @@
 				TargetAttributes = {
 					E87EEBB41F1CEE9300E0A236 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					E87EEBBD1F1CEE9300E0A236 = {
@@ -196,6 +260,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87EEBDD1F1CFB5700E0A236 /* MandrillMergeVariables.swift in Sources */,
+				E87EEBD51F1CFAAD00E0A236 /* MandrillTo.swift in Sources */,
+				E87EEBD31F1CFA9500E0A236 /* MandrillTemplateContent.swift in Sources */,
+				E87EEBD11F1CF9F800E0A236 /* MandrillErrorResponse.swift in Sources */,
+				E87EEBE81F1CFC0300E0A236 /* ModelHelpers.swift in Sources */,
+				E87EEBE61F1CFBBA00E0A236 /* MandrillModelProtocol.swift in Sources */,
+				E87EEBDB1F1CFB3700E0A236 /* MandrillMergeVariable.swift in Sources */,
+				E87EEBD71F1CFAE700E0A236 /* MandrillHeaders.swift in Sources */,
+				E87EEBD91F1CFB1400E0A236 /* MandrillGlobalMergeVariable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,17 +393,23 @@
 		E87EEBCA1F1CEE9300E0A236 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "mandrill-api-swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sofyo.mandrill-api-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,11 +417,16 @@
 		E87EEBCB1F1CEE9300E0A236 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "mandrill-api-swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -356,6 +440,7 @@
 		E87EEBCD1F1CEE9300E0A236 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "mandrill-api-swiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sofyo.mandrill-api-swiftTests";
@@ -367,6 +452,7 @@
 		E87EEBCE1F1CEE9300E0A236 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "mandrill-api-swiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sofyo.mandrill-api-swiftTests";
@@ -394,6 +480,7 @@
 				E87EEBCB1F1CEE9300E0A236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E87EEBCC1F1CEE9300E0A236 /* Build configuration list for PBXNativeTarget "SwiftMandrillApiTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +489,7 @@
 				E87EEBCE1F1CEE9300E0A236 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
